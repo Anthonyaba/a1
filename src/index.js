@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+﻿import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
 class C extends Component {
@@ -8,7 +8,7 @@ class C extends Component {
       f2:'不喜欢白菜',
       f3:'不喜欢番茄'
     }
-  
+   
    
     Fischange1=()=>{
     if(this.state.f1==='最喜欢萝卜'){}
@@ -66,7 +66,8 @@ class C extends Component {
                     this.setState((prevState,props)=>({f2:'喜欢番茄'}))
              }
              }
-  
+     
+
     render() {
       return (
         <div>  
