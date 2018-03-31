@@ -9,8 +9,7 @@ const App=(props,context)=>{
     <div>
       <MenuAppBar>
         </MenuAppBar>
-    <TemporaryDrawer>
-    </TemporaryDrawer>
+
   </div>
   )
 }
